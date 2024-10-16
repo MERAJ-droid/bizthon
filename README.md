@@ -1,6 +1,6 @@
 # Alephium Next.js Template
 
-This is a Alephium template project for the [Next.js](https://nextjs.org/) framework.
+This is a Alephium template project for [Next.js](https://nextjs.org/) app router.
 
 This template project demonstrates how to implement a simple token
 faucet and expose it with a Web UI using Next.js.

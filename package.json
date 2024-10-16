@@ -32,13 +32,12 @@
   "dependencies": {
     "@alephium/web3": "v1.8.0",
     "@alephium/web3-react": "v1.8.0",
-    "@next/font": "13.1.4",
     "detect-browser": "^5.3.0",
     "eslint-config-next": "13.1.4",
     "framer-motion": "^6.3.11",
-    "next": "13.1.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-transition-state": "^1.1.4",
     "react-use-measure": "^2.1.1",
     "resize-observer-polyfill": "^1.5.1",
@@ -48,9 +47,9 @@
     "@alephium/cli": "v1.8.0",
     "@alephium/web3-test": "v1.8.0",
     "@types/jest": "^27.5.1",
-    "@types/node": "18.11.18",
-    "@types/react": "18.0.27",
-    "@types/react-dom": "18.0.10",
+    "@types/node": "^20.11.18",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
     "@types/styled-components": "^5.1.25",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
@@ -63,7 +62,7 @@
     "typescript": "^4.4.2"
   },
   "engines": {
-    "node": ">=14.0.0 <17.0.0",
-    "npm": ">=7.0.0"
+    "node": ">=18.0.0",
+    "npm": ">=10.0.0"
   }
 }
