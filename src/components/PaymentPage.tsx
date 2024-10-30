@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 // import { DOCTOR_ADDRESS } from '../constants/addresses';
 import { transferTokens } from '../services/tokenService';
 
-export const DOCTOR_ADDRESS = "0x"
+export const DOCTOR_ADDRESS = "15WvWB8qzHnqxWQu3ifAbv35ekBNWNBm2NnwwiDrCSekd"
 
 const PaymentPage: React.FC = () => {
   const { state } = useLocation();
