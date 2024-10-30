@@ -1,0 +1,4 @@
+TxScript Transfer(recipient: Address, amount: U256) {
+    transferAlph!(recipient, amount)
+  }
+  
