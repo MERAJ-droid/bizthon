@@ -2,8 +2,10 @@ import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useWallet } from '@alephium/web3-react';
 import { motion } from 'framer-motion';
-import { DOCTOR_ADDRESS } from '../constants/addresses';
+// import { DOCTOR_ADDRESS } from '../constants/addresses';
 import { transferTokens } from '../services/tokenService';
+
+export const DOCTOR_ADDRESS = "0x"
 
 const PaymentPage: React.FC = () => {
   const { state } = useLocation();
