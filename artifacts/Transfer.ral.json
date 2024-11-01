@@ -1,14 +1,14 @@
 {
   "version": "v3.8.0",
-  "name": "Withdraw",
-  "bytecodeTemplate": "01010300000005{1}0d0c{0}0105",
+  "name": "Transfer",
+  "bytecodeTemplate": "01010300000004b4{0}{1}a7",
   "fieldsSig": {
     "names": [
-      "token",
+      "recipient",
       "amount"
     ],
     "types": [
-      "TokenFaucet",
+      "Address",
       "U256"
     ],
     "isMutable": [

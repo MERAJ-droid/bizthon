@@ -19,7 +19,7 @@ const configuration: Configuration<Settings> = {
 
     testnet: {
       nodeUrl: process.env.NODE_URL as string ?? 'https://node.testnet.alephium.org',
-      privateKeys: process.env.PRIVATE_KEYS === undefined ? [] : process.env.PRIVATE_KEYS.split(','),
+      privateKeys: '3b14b6e260a25099f647ea53945bcd79b3eb8250b17d31d1e19e36c91dbe8382',
       settings: defaultSettings
     },
 

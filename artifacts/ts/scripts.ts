@@ -12,7 +12,13 @@ import {
   HexString,
 } from "@alephium/web3";
 import { getContractByCodeHash } from "./contracts";
+import { default as TransferScriptJson } from "../Transfer.ral.json";
 import { default as WithdrawScriptJson } from "../Withdraw.ral.json";
+
+export const Transfer = new ExecutableScript<{
+  recipient: Address;
+  amount: bigint;
+}>(Script.fromJson(TransferScriptJson, "", []), getContractByCodeHash);
 
 export const Withdraw = new ExecutableScript<{
   token: HexString;
